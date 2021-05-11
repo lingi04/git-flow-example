@@ -12,3 +12,5 @@
 ```
 git co -b feature/step1-step2-and-step3
 ```
+### step2
+1. feature를 개발하고 커밋한다.
