@@ -14,3 +14,10 @@ git co -b feature/step1-step2-and-step3
 ```
 ### step2
 1. feature를 개발하고 커밋한다.
+### step3
+1. develop 브랜치에 머지 한다.
+    * 머지 옵션은 트리를 깔끔하게 유지하기 위해 `squash merge`를 했음.
+```
+# master에 머지
+git merge feature/step1-step2-and-step3 --squash
+```
