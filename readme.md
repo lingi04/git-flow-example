@@ -21,3 +21,6 @@ git co -b feature/step1-step2-and-step3
 # master에 머지
 git merge feature/step1-step2-and-step3 --squash
 ```
+### step4
+1. develop에서 release branch 생성
+2. release에 추가할 것이 있으면 `step1`, `step2`를 반복하고 release브랜치에 머지 한다.
